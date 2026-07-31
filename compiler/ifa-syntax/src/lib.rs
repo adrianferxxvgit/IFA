@@ -1,4 +1,7 @@
-﻿use ifa_core::Span;
+﻿mod syntax_node;
+mod syntax_tree;
+
+use ifa_core::Span;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum SyntaxKind {
@@ -40,6 +43,9 @@ impl SyntaxToken {
         self.span
     }
 }
+
+pub use syntax_node::SyntaxNode;
+pub use syntax_tree::SyntaxTree;
 
 #[cfg(test)]
 mod tests {

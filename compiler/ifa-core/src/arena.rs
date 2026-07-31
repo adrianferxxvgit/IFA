@@ -1,8 +1,14 @@
 use crate::NodeId;
 
-#[derive(Debug, Default)]
+#[derive(Debug)]
 pub struct Arena<T> {
     items: Vec<T>,
+}
+
+impl<T> Default for Arena<T> {
+    fn default() -> Self {
+        Self::new()
+    }
 }
 
 impl<T> Arena<T> {
