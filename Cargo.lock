@@ -13,3 +13,6 @@ version = "0.1.0"
 [[package]]
 name = "ifa-diagnostics"
 version = "0.1.0"
+dependencies = [
+ "ifa-core",
+]
