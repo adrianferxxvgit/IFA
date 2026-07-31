@@ -1,3 +1,5 @@
-﻿mod source;
+﻿mod position;
+mod source;
 
-pub use source::{Position, SourceText};
+pub use position::Position;
+pub use source::SourceText;
