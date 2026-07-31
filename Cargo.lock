@@ -18,6 +18,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "ifa-lexer"
+version = "0.1.0"
+dependencies = [
+ "ifa-core",
+ "ifa-diagnostics",
+ "ifa-syntax",
+]
+
+[[package]]
 name = "ifa-syntax"
 version = "0.1.0"
 dependencies = [

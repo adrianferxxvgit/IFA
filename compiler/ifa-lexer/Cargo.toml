@@ -1,0 +1,9 @@
+[package]
+name = "ifa-lexer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ifa-core = { path = "../ifa-core" }
+ifa-syntax = { path = "../ifa-syntax" }
+ifa-diagnostics = { path = "../ifa-diagnostics" }
