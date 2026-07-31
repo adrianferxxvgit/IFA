@@ -16,3 +16,10 @@ version = "0.1.0"
 dependencies = [
  "ifa-core",
 ]
+
+[[package]]
+name = "ifa-syntax"
+version = "0.1.0"
+dependencies = [
+ "ifa-core",
+]
