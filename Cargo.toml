@@ -1,10 +1,17 @@
-[workspace]
+﻿[workspace]
 resolver = "3"
-
 members = [
     "compiler/ifa-core",
     "compiler/ifa-diagnostics",
     "compiler/ifa-syntax",
     "compiler/ifa-lexer",
     "compiler/ifa-cli",
+    "ifa-data-pipeline",
 ]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Adrian G. Fernandez <adrianferxxv@gmail.com>"]
+description = "Integral Football Analysis (IFA) - Competitive Inference Engine"
+license = "MIT"
