@@ -1,7 +1,7 @@
 # ⚽ Integral Football Analysis (IFA) v6.1 Alpha
 
 > **Motor de Inferencia Competitiva con Calibración Empírica**  
-> Accuracy predictiva: **62.65%** (N=166 partidos reales, 5 ligas europeas)
+> Accuracy predictiva: **55.74%** (N=967 partidos reales, 5 ligas europeas)
 
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org/)
 [![StatsBomb](https://img.shields.io/badge/Data-StatsBomb_Open_Data-blue.svg)](https://github.com/statsbomb/open-data)
@@ -31,6 +31,6 @@ IFA es un sistema de análisis deportivo independiente que predice resultados de
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
 │  3. Backtesting & Validación                                │
-│     ↓ N=166 partidos reales                                 │
-│     ↓ Accuracy: 62.65%                                      │
+│     ↓ N=967 partidos reales                                 │
+│     ↓ Accuracy: 55.74%                                      │
 └─────────────────────────────────────────────────────────────┘

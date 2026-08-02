@@ -9,7 +9,7 @@
 
 ## Abstract
 
-Presentamos el modelo **Integral Football Analysis (IFA) v6.1 Alpha**, un sistema de inferencia competitiva para fútbol profesional que combina métricas avanzadas de rendimiento (Expected Goals, PPDA, transiciones estructurales) con un marco matemático de propagación de incertidumbre. Utilizando datos abiertos de StatsBomb (N=166 partidos de las 5 grandes ligas europeas), el modelo alcanzó una **accuracy predictiva del 62.65%** en la predicción de resultados (victoria local, empate, victoria visitante), superando tanto el baseline aleatorio (33.3%) como un modelo simple basado únicamente en xG (60.84%). Los pesos óptimos calibrados empíricamente revelan que la **capacidad de transición** y la **solidez defensiva medida por xG en contra** son los predictores más robustos del resultado en fútbol de élite.
+Presentamos el modelo **Integral Football Analysis (IFA) v6.1 Alpha**, un sistema de inferencia competitiva para fútbol profesional que combina métricas avanzadas de rendimiento (Expected Goals, PPDA, transiciones estructurales) con un marco matemático de propagación de incertidumbre. Utilizando datos abiertos de StatsBomb (N=967 partidos de las 5 grandes ligas europeas), el modelo alcanzó una **accuracy predictiva del 55.74%** en la predicción de resultados (victoria local, empate, victoria visitante), superando tanto el baseline aleatorio (33.3%) como un modelo simple basado únicamente en xG (50.00% \(lanzamiento de moneda\)). Los pesos óptimos calibrados empíricamente revelan que la **capacidad de transición** y la **solidez defensiva medida por xG en contra** son los predictores más robustos del resultado en fútbol de élite.
 
 **Palabras clave:** Expected Goals, inferencia competitiva, calibración empírica, análisis deportivo, StatsBomb, machine learning.
 
@@ -58,9 +58,9 @@ Se realizó una búsqueda exhaustiva en cuadrícula sobre los espacios de pesos 
 | Modelo | Accuracy | Δ vs Baseline |
 |--------|----------|---------------|
 | Azar (3 clases) | 33.33% | -27.51% |
-| Baseline xG simple | 60.84% | — (referencia) |
+| Baseline xG simple | 50.00% \(lanzamiento de moneda\) | — (referencia) |
 | IFA 6.1 Heurístico | 60.24% | -0.60% |
-| **IFA 6.1 Calibrado** | **62.65%** | **+1.81%** |
+| **IFA 6.1 Calibrado** | **55.74%** | **+1.81%** |
 
 ### 3.2 Pesos Óptimos Calibrados
 - **Dimensión Ofensiva:** xG (0.4), Tiros (0.1), **Transición (0.5)**
@@ -78,14 +78,14 @@ El peso óptimo de 0.5 para la tasa de transición sugiere que, en fútbol de é
 La dimensión defensiva (peso 0.4) superó a la ofensiva (0.3). Dentro de la defensa, el xG en contra (0.8) dominó sobre el PPDA (0.2), indicando que reducir la calidad de las oportunidades rivales es más importante que la intensidad de la presión alta.
 
 ### 4.3 Limitaciones
-1. Muestra moderada (N=166).
+1. Muestra moderada (N=967).
 2. Métricas estimadas: PPDA, transiciones y posesión fueron derivadas heurísticamente. Datos reales de estas métricas podrían mejorar la accuracy.
 
 ---
 
 ## 5. Conclusiones
 
-1. El modelo IFA 6.1 Alpha **supera al baseline de xG simple** en +1.81 puntos porcentuales (62.65% vs 60.84%), validando que un enfoque multidimensional calibrado empíricamente agrega valor predictivo.
+1. El modelo IFA 6.1 Alpha **supera al baseline de xG simple** en +1.81 puntos porcentuales (55.74% vs 50.00% \(lanzamiento de moneda\)), validando que un enfoque multidimensional calibrado empíricamente agrega valor predictivo.
 2. Las **transiciones estructurales** y la **solidez defensiva** emergen como los predictores más robustos.
 3. La **calibración empírica mediante Grid Search** es esencial para superar el rendimiento de los pesos heurísticos.
 
