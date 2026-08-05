@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { font-family: 'Calibri', Arial, sans-serif; margin: 40px; line-height: 1.6; }
+h1 { color: #1a5490; border-bottom: 3px solid #1a5490; padding-bottom: 10px; }
+h2 { color: #2c5f8d; margin-top: 30px; }
+h3 { color: #3a7ca5; }
+table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 11pt; }
+th { background-color: #1a5490; color: white; padding: 10px; text-align: left; border: 1px solid #ddd; }
+td { padding: 8px; border: 1px solid #ddd; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+.highlight { background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 15px 0; }
+.success { background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 15px 0; }
+.info { background-color: #d1ecf1; padding: 15px; border-left: 4px solid #17a2b8; margin: 15px 0; }
+.prediction { font-weight: bold; color: #1a5490; }
+.positive { color: #28a745; font-weight: bold; }
+.negative { color: #dc3545; }
+.footer { margin-top: 40px; padding-top: 20px; border-top: 2px solid #ccc; font-size: 10pt; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>🏆 INFORME CONSOLIDADO: PREDICCIONES IFA v6.1 Alpha</h1>
+
+<p><strong>Competición:</strong> UEFA Champions League (Fase de Clasificación)<br>
+<strong>Fechas de los partidos:</strong> 4 y 5 de Agosto de 2026<br>
+<strong>Muestra total analizada:</strong> 10 enfrentamientos<br>
+<strong>Modelo:</strong> Integral Football Analysis v6.1 Alpha (Calibrado con N=967 partidos)</p>
+
+<hr>
+
+<h2>📊 TABLA RESUMEN DE PREDICCIONES</h2>
+
+<table>
+<tr>
+<th>Fecha / Hora</th>
+<th>Partido</th>
+<th>Predicción IFA</th>
+<th>Confianza</th>
+<th>Factor Decisivo</th>
+<th>IEV Local</th>
+<th>IEV Visitante</th>
+</tr>
+<tr>
+<td>Mar 13:00</td>
+<td>Mjällby AIF vs Slovan Bratislava</td>
+<td class="prediction">✈️ Slovan</td>
+<td>Media</td>
+<td>Transiciones y xG superior</td>
+<td class="negative">-4.6%</td>
+<td class="positive">+3.2%</td>
+</tr>
+<tr>
+<td>Mar 13:00</td>
+<td>Ararat-Armenia vs NK Celje</td>
+<td class="prediction">✈️ NK Celje</td>
+<td>Alta</td>
+<td>Dominio abrumador en 4 métricas</td>
+<td class="negative">-21.1%</td>
+<td class="positive">+5.7%</td>
+</tr>
+<tr>
+<td>Mar 14:30</td>
+<td>Hapoel Be'er Sheva vs Estrella Roja</td>
+<td class="prediction">✈️ Estrella Roja</td>
+<td>Alta</td>
+<td>ICE superior (0.86) y mejor defensa</td>
+<td class="negative">-16.8%</td>
+<td class="positive">+5.7%</td>
+</tr>
+<tr>
+<td>Mar 14:30</td>
+<td>Levski Sofia vs Kairat Almaty</td>
+<td class="prediction">✈️ Kairat</td>
+<td>Media</td>
+<td>Menor crisis de liderazgo (ICE 0.80)</td>
+<td class="negative">-2.3%</td>
+<td class="positive">+16.2%</td>
+</tr>
+<tr>
+<td>Mar 15:00</td>
+<td>Olympiacos vs NEC Nijmegen</td>
+<td class="prediction">🏠 Olympiacos</td>
+<td>Alta</td>
+<td>Dominio multidimensional + local</td>
+<td class="positive">+22.1%</td>
+<td class="negative">-5.4%</td>
+</tr>
+<tr>
+<td>Mar 15:00</td>
+<td>Dinamo Zagreb vs Kauno Žalgiris</td>
+<td class="prediction">🏠 Dinamo</td>
+<td>Muy Alta</td>
+<td>Superioridad abrumadora (xG 2.10)</td>
+<td class="positive">+2.0%</td>
+<td class="positive">+26.0%</td>
+</tr>
+<tr>
+<td>Mié 13:30</td>
+<td>Aarhus GF vs Sabah FK</td>
+<td class="prediction">🏠 Aarhus</td>
+<td>Muy Alta</td>
+<td>Estructura sólida (ICE 0.86)</td>
+<td class="positive">+6.3%</td>
+<td class="positive">+22.4%</td>
+</tr>
+<tr>
+<td>Mié 15:00</td>
+<td>Fenerbahçe vs Sturm Graz</td>
+<td class="prediction">✈️ Sturm Graz</td>
+<td>Media-Alta</td>
+<td>Transiciones (0.82) superan al xG local</td>
+<td class="negative">-7.7%</td>
+<td class="positive">+48.9%</td>
+</tr>
+<tr>
+<td>Mié 15:00</td>
+<td>Sparta Praha vs Olympique de Lyon</td>
+<td class="prediction">✈️ Lyon</td>
+<td>Media-Alta</td>
+<td>Mejor estructura ofensiva</td>
+<td class="positive">+20.5%</td>
+<td class="negative">-7.4%</td>
+</tr>
+<tr>
+<td>Mié 15:00</td>
+<td>USG vs Bodø/Glimt</td>
+<td class="prediction">🏠 USG</td>
+<td>Media</td>
+<td>Defensa sólida neutraliza transiciones</td>
+<td class="negative">-16.7%</td>
+<td class="positive">+39.4%</td>
+</tr>
+</table>
+
+<div class="info">
+<strong>📌 Nota sobre IEV Visitante alto en victorias locales:</strong> El modelo predice al local, pero detecta que las cuotas del mercado para el visitante están infladas, ofreciendo "valor de apuesta" matemático aunque la probabilidad de ganar sea menor.
+</div>
+
+<h2>🔬 ANÁLISIS ESTRATÉGICO POR CATEGORÍAS</h2>
+
+<h3>🟢 1. Favoritos Estructurales Claros (Alta Confianza)</h3>
+<p>El modelo detecta una superioridad multidimensional innegable. El mercado generalmente lo sabe, pero el IFA confirma la solidez.</p>
+<ul>
+<li><strong>Dinamo Zagreb:</strong> Superioridad absoluta en xG, defensa y transiciones.</li>
+<li><strong>NK Celje:</strong> Domina al Ararat-Armenia en todas las métricas, especialmente en solidez defensiva (PPDA 10.2 vs 12.5).</li>
+<li><strong>Estrella Roja:</strong> El visitante con el ICE más alto (0.86) de toda la muestra, indicando máxima estabilidad institucional y táctica.</li>
+</ul>
+
+<h3>🟡 2. Alertas de Batacazo / Contraintuitivos (Oportunidad de Valor)</h3>
+<p>Aquí es donde el IFA se separa de un modelo simple de "xG" o de la intuición popular. El modelo ignora el "factor local" si las métricas estructurales no lo respaldan.</p>
+<ul>
+<li><strong>Fenerbahçe vs Sturm Graz:</strong> La predicción más contraintuitiva. A pesar del xG y la localía de Fenerbahçe, el modelo otorga la victoria a Sturm Graz debido a su tasa de transiciones (0.82) y un ICE significativamente mejor. <span class="positive">IEV Visitante: +48.9% (Máxima oportunidad detectada)</span>.</li>
+<li><strong>Levski Sofia vs Kairat Almaty:</strong> Partido muy equilibrado, pero la balanza se inclina hacia el visitante por una mejor gestión de la crisis de liderazgo (ICD 0.12 vs 0.18).</li>
+</ul>
+
+<h3>🔵 3. Ineficiencias del Mercado Detectadas (IEV Extremos)</h3>
+<p>Partidos donde la predicción es clara, pero las cuotas de las casas de apuestas no reflejan la realidad matemática del modelo.</p>
+<ul>
+<li><strong>Olympiacos:</strong> El modelo lo ve como un ganador claro, y detecta que el mercado lo <strong>subestima</strong> (IEV Local +22.1%). Es la señal de valor positivo más limpia a favor de un local.</li>
+<li><strong>USG vs Bodø/Glimt:</strong> El modelo predice al USG porque su defensa neutraliza el ataque de Bodø, pero las cuotas del visitante están tan infladas que el modelo marca un IEV Visitante de +39.4%.</li>
+</ul>
+
+<h2>⚙️ METODOLOGÍA IFA v6.1 Alpha</h2>
+
+<p>Estas predicciones no se basan en intuición, sino en la aplicación de los <strong>pesos óptimos</strong> calibrados empíricamente con 967 partidos reales:</p>
+
+<ol>
+<li><strong>Transiciones Estructurales (Peso 0.5):</strong> La capacidad de cambiar de fase rápidamente es el predictor más fuerte.</li>
+<li><strong>Solidez Defensiva (Peso 0.4):</strong> Medida principalmente por el xG en contra y el PPDA.</li>
+<li><strong>Presión Ofensiva (Peso 0.3):</strong> xG a favor y tiros al arco.</li>
+<li><strong>ICE (Confianza Estructural):</strong> Actúa como multiplicador y desempate, penalizando severamente a equipos con alta "Crisis de Dirección" (ICD).</li>
+</ol>
+
+<div class="success">
+<strong>✅ Validación del Modelo:</strong> El motor IFA 6.1 Alpha fue validado con Validación Cruzada 5-Fold sobre N=967 partidos, obteniendo una accuracy del 55.74% con desviación estándar de ±2.77%, demostrando robustez estadística.
+</div>
+
+<h2>📌 PRÓXIMOS PASOS RECOMENDADOS</h2>
+
+<ol>
+<li><strong>Seguimiento en Vivo:</strong> Compara estos resultados con los marcadores reales del 4 y 5 de agosto. Presta especial atención a <strong>Fenerbahçe vs Sturm Graz</strong> y <strong>Levski vs Kairat</strong>.</li>
+<li><strong>Revisión de Reportes:</strong> Si necesitas el desglose matemático exacto (deltas, sigmas y fórmulas) de algún partido en particular, puedes abrir su archivo <code>.md</code> correspondiente en tu carpeta.</li>
+<li><strong>Ajuste Post-Partido:</strong> Una vez terminen los partidos, podemos alimentar al modelo con los resultados reales para calcular la <em>Accuracy</em> final de esta ronda de clasificación específica.</li>
+</ol>
+
+<div class="footer">
+<p><strong>Generado por:</strong> Integral Football Analysis (IFA) v6.1 Alpha<br>
+<strong>Fecha del informe:</strong> 4 de Agosto de 2026<br>
+<strong>Repositorio:</strong> https://github.com/adrianferxxvgit/IFA<br>
+<strong>Autor:</strong> Adrián G. Fernández</p>
+<p><em>Este documento es un análisis científico basado en datos históricos y métricas avanzadas. Las predicciones deportivas están sujetas a incertidumbre inherente.</em></p>
+</div>
+
+</body>
+</html>

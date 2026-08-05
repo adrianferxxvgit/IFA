@@ -1,0 +1,35 @@
+{
+  "match_id": "IFA-DERBY-2024-004",
+  "competition": "Serie A 2023/2024",
+  "home_team": "Inter Milan",
+  "away_team": "AC Milan",
+  "home_metrics": {
+    "xg_for_last_5": 2.05,
+    "xg_against_last_5": 0.95,
+    "ppda": 9.8,
+    "direct_transition_success_rate": 0.78,
+    "key_player_availability": 0.90,
+    "possession_rate": 0.54,
+    "shots_on_target_per_game": 5.8,
+    "leadership_crisis_level": 0.08
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.90,
+    "xg_against_last_5": 1.15,
+    "ppda": 10.2,
+    "direct_transition_success_rate": 0.76,
+    "key_player_availability": 0.88,
+    "possession_rate": 0.51,
+    "shots_on_target_per_game": 5.5,
+    "leadership_crisis_level": 0.10
+  },
+  "market_data": { "home_win_odds": 2.10, "draw_odds": 3.40, "away_win_odds": 3.40 },
+  "contextual_factors": {
+    "odds_discrepancy_factor": 0.05,
+    "geography_travel_factor": 0.00,
+    "competitive_pressure": 0.95,
+    "away_specific_underperformance": 0.08,
+    "historical_volatility": 0.50,
+    "market_movement_anomaly": 0.08
+  }
+}

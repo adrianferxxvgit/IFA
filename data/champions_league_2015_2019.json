@@ -1,0 +1,23 @@
+[{
+    "id":  null,
+    "external_id":  "22912",
+    "provider":  "statsbomb",
+    "competition":  "UEFA Champions League",
+    "season":  2016,
+    "match_date":  "2019-06-01",
+    "home_team":  "Tottenham Hotspur",
+    "away_team":  "Liverpool",
+    "home_score":  0,
+    "away_score":  2,
+    "result":  "away_win",
+    "home_xg":  0.92,
+    "away_xg":  1.2,
+    "home_xg_against":  1.2,
+    "away_xg_against":  0.92,
+    "home_possession":  null,
+    "away_possession":  null,
+    "home_shots_on_target":  16,
+    "away_shots_on_target":  14,
+    "home_ppda":  null,
+    "away_ppda":  null
+}]

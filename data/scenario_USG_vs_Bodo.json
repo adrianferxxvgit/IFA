@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-USGBOD-003",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "Union Saint-Gilloise",
+  "away_team": "Bodø/Glimt",
+  "home_metrics": {
+    "xg_for_last_5": 1.85,
+    "xg_against_last_5": 1.05,
+    "ppda": 8.5,
+    "direct_transition_success_rate": 0.76,
+    "key_player_availability": 0.90,
+    "possession_rate": 0.52,
+    "shots_on_target_per_game": 5.5,
+    "leadership_crisis_level": 0.10
+  },
+  "away_metrics": {
+    "xg_for_last_5": 2.05,
+    "xg_against_last_5": 1.45,
+    "ppda": 11.5,
+    "direct_transition_success_rate": 0.86,
+    "key_player_availability": 0.85,
+    "possession_rate": 0.48,
+    "shots_on_target_per_game": 6.5,
+    "leadership_crisis_level": 0.15
+  },
+  "market_data": { "home_win_odds": 2.10, "draw_odds": 3.40, "away_win_odds": 3.30 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.06, "geography_travel_factor": 0.15, "competitive_pressure": 0.85, "away_specific_underperformance": 0.12, "historical_volatility": 0.65, "market_movement_anomaly": 0.12 }
+}

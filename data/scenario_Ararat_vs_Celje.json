@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-ARACEL-002",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "FC Ararat-Armenia",
+  "away_team": "NK Celje",
+  "home_metrics": {
+    "xg_for_last_5": 1.20,
+    "xg_against_last_5": 1.50,
+    "ppda": 12.5,
+    "direct_transition_success_rate": 0.65,
+    "key_player_availability": 0.85,
+    "possession_rate": 0.40,
+    "shots_on_target_per_game": 3.5,
+    "leadership_crisis_level": 0.20
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.55,
+    "xg_against_last_5": 1.30,
+    "ppda": 10.2,
+    "direct_transition_success_rate": 0.73,
+    "key_player_availability": 0.88,
+    "possession_rate": 0.48,
+    "shots_on_target_per_game": 4.8,
+    "leadership_crisis_level": 0.12
+  },
+  "market_data": { "home_win_odds": 3.50, "draw_odds": 3.50, "away_win_odds": 1.95 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.04, "geography_travel_factor": 0.12, "competitive_pressure": 0.80, "away_specific_underperformance": 0.08, "historical_volatility": 0.50, "market_movement_anomaly": 0.06 }
+}

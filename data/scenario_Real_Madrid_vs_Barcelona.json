@@ -1,0 +1,35 @@
+{
+  "match_id": "IFA-CLASICO-2024-001",
+  "competition": "La Liga 2023/2024",
+  "home_team": "Real Madrid",
+  "away_team": "Barcelona",
+  "home_metrics": {
+    "xg_for_last_5": 2.10,
+    "xg_against_last_5": 0.85,
+    "ppda": 9.5,
+    "direct_transition_success_rate": 0.88,
+    "key_player_availability": 0.92,
+    "possession_rate": 0.52,
+    "shots_on_target_per_game": 6.5,
+    "leadership_crisis_level": 0.03
+  },
+  "away_metrics": {
+    "xg_for_last_5": 2.45,
+    "xg_against_last_5": 1.05,
+    "ppda": 8.2,
+    "direct_transition_success_rate": 0.68,
+    "key_player_availability": 0.88,
+    "possession_rate": 0.64,
+    "shots_on_target_per_game": 7.2,
+    "leadership_crisis_level": 0.12
+  },
+  "market_data": { "home_win_odds": 1.95, "draw_odds": 3.60, "away_win_odds": 3.80 },
+  "contextual_factors": {
+    "odds_discrepancy_factor": 0.08,
+    "geography_travel_factor": 0.00,
+    "competitive_pressure": 0.98,
+    "away_specific_underperformance": 0.15,
+    "historical_volatility": 0.55,
+    "market_movement_anomaly": 0.12
+  }
+}

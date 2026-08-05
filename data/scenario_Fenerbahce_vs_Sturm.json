@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-FENSTU-002",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "Fenerbahçe",
+  "away_team": "Sturm Graz",
+  "home_metrics": {
+    "xg_for_last_5": 2.15,
+    "xg_against_last_5": 0.95,
+    "ppda": 9.5,
+    "direct_transition_success_rate": 0.75,
+    "key_player_availability": 0.88,
+    "possession_rate": 0.58,
+    "shots_on_target_per_game": 6.8,
+    "leadership_crisis_level": 0.12
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.50,
+    "xg_against_last_5": 1.20,
+    "ppda": 10.2,
+    "direct_transition_success_rate": 0.82,
+    "key_player_availability": 0.92,
+    "possession_rate": 0.42,
+    "shots_on_target_per_game": 4.8,
+    "leadership_crisis_level": 0.08
+  },
+  "market_data": { "home_win_odds": 1.75, "draw_odds": 3.60, "away_win_odds": 4.50 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.04, "geography_travel_factor": 0.12, "competitive_pressure": 0.90, "away_specific_underperformance": 0.10, "historical_volatility": 0.50, "market_movement_anomaly": 0.08 }
+}

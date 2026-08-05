@@ -1,0 +1,58 @@
+[
+  {
+    "score_range": "-0.3 to -0.2",
+    "total_matches": 19,
+    "home_wins": 6,
+    "actual_prob": 0.3157894736842105,
+    "predicted_prob": 0.04742587317756678,
+    "adjustment_factor": 6.658590607322421
+  },
+  {
+    "score_range": "-0.2 to -0.2",
+    "total_matches": 127,
+    "home_wins": 33,
+    "actual_prob": 0.25984251968503935,
+    "predicted_prob": 0.11920292202211755,
+    "adjustment_factor": 2.179833474525287
+  },
+  {
+    "score_range": "-0.2 to -0.1",
+    "total_matches": 191,
+    "home_wins": 59,
+    "actual_prob": 0.3089005235602094,
+    "predicted_prob": 0.2689414213699951,
+    "adjustment_factor": 1.1485792035554119
+  },
+  {
+    "score_range": "-0.1 to 0.1",
+    "total_matches": 301,
+    "home_wins": 132,
+    "actual_prob": 0.43853820598006643,
+    "predicted_prob": 0.5,
+    "adjustment_factor": 0.8770764119601329
+  },
+  {
+    "score_range": "0.1 to 0.2",
+    "total_matches": 234,
+    "home_wins": 127,
+    "actual_prob": 0.5427350427350427,
+    "predicted_prob": 0.7310585786300049,
+    "adjustment_factor": 0.742396106960569
+  },
+  {
+    "score_range": "0.2 to 0.2",
+    "total_matches": 79,
+    "home_wins": 55,
+    "actual_prob": 0.6962025316455697,
+    "predicted_prob": 0.8807970779778823,
+    "adjustment_factor": 0.7904232984558698
+  },
+  {
+    "score_range": "0.2 to 0.3",
+    "total_matches": 15,
+    "home_wins": 9,
+    "actual_prob": 0.6,
+    "predicted_prob": 0.9525741268224334,
+    "adjustment_factor": 0.6298722410207183
+  }
+]

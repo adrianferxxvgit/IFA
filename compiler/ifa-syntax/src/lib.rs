@@ -1,5 +1,70 @@
 use ifa_core::{SourceText, Span};
-use ifa_syntax::{SyntaxKind, SyntaxToken};
+
+// === DEFINICIONES DE TIPOS FALTANTES ===
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum SyntaxKind {
+    // Whitespace
+    Whitespace,
+    
+    // Punctuation
+    LeftParen,
+    RightParen,
+    LeftBrace,
+    RightBrace,
+    LeftBracket,
+    RightBracket,
+    Comma,
+    Colon,
+    Semicolon,
+    Dot,
+    Plus,
+    Minus,
+    Star,
+    Slash,
+    Equal,
+    EqualEqual,
+    Bang,
+    BangEqual,
+    
+    // Literals
+    IntegerLiteral,
+    StringLiteral,
+    
+    // Identifiers and Keywords
+    Identifier,
+    KeywordIndicator,
+    KeywordIf,
+    KeywordElse,
+    KeywordWhile,
+    KeywordReturn,
+    
+    // Special
+    EndOfFile,
+    Unknown,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct SyntaxToken {
+    kind: SyntaxKind,
+    span: Span,
+}
+
+impl SyntaxToken {
+    pub fn new(kind: SyntaxKind, span: Span) -> Self {
+        Self { kind, span }
+    }
+    
+    pub fn kind(&self) -> SyntaxKind {
+        self.kind
+    }
+    
+    pub fn span(&self) -> Span {
+        self.span
+    }
+}
+
+// === LEXER ===
 
 pub struct Lexer<'a> {
     source: &'a SourceText,
@@ -174,7 +239,7 @@ impl<'a> Lexer<'a> {
 
                     tokens.push(SyntaxToken::new(
                         SyntaxKind::Unknown,
-                        Span::new(start, self.offset).unwrap(),
+                        Span::new(self.offset, self.offset).unwrap(),
                     ));
                 }
             }

@@ -1,0 +1,39 @@
+{
+  "match_id": "IFA-TEST-2024-ARSLIV-001",
+  "competition": "Premier League 2023/2024",
+  "home_team": "Arsenal",
+  "away_team": "Liverpool",
+  "home_metrics": {
+    "xg_for_last_5": 1.85,
+    "xg_against_last_5": 0.95,
+    "ppda": 8.5,
+    "direct_transition_success_rate": 0.75,
+    "key_player_availability": 0.90,
+    "possession_rate": 0.58,
+    "shots_on_target_per_game": 5.5,
+    "leadership_crisis_level": 0.05
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.95,
+    "xg_against_last_5": 1.10,
+    "ppda": 9.2,
+    "direct_transition_success_rate": 0.82,
+    "key_player_availability": 0.85,
+    "possession_rate": 0.52,
+    "shots_on_target_per_game": 6.0,
+    "leadership_crisis_level": 0.10
+  },
+  "market_data": {
+    "home_win_odds": 2.40,
+    "draw_odds": 3.40,
+    "away_win_odds": 2.80
+  },
+  "contextual_factors": {
+    "odds_discrepancy_factor": 0.05,
+    "geography_travel_factor": 0.02,
+    "competitive_pressure": 0.90,
+    "away_specific_underperformance": 0.05,
+    "historical_volatility": 0.45,
+    "market_movement_anomaly": 0.10
+  }
+}

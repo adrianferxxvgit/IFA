@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-OLYMNEC-001",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "Olympiacos",
+  "away_team": "NEC Nijmegen",
+  "home_metrics": {
+    "xg_for_last_5": 1.85,
+    "xg_against_last_5": 1.05,
+    "ppda": 9.0,
+    "direct_transition_success_rate": 0.77,
+    "key_player_availability": 0.90,
+    "possession_rate": 0.56,
+    "shots_on_target_per_game": 5.8,
+    "leadership_crisis_level": 0.10
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.40,
+    "xg_against_last_5": 1.30,
+    "ppda": 11.0,
+    "direct_transition_success_rate": 0.74,
+    "key_player_availability": 0.88,
+    "possession_rate": 0.48,
+    "shots_on_target_per_game": 4.5,
+    "leadership_crisis_level": 0.15
+  },
+  "market_data": { "home_win_odds": 1.80, "draw_odds": 3.60, "away_win_odds": 4.20 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.05, "geography_travel_factor": 0.06, "competitive_pressure": 0.88, "away_specific_underperformance": 0.10, "historical_volatility": 0.50, "market_movement_anomaly": 0.08 }
+}

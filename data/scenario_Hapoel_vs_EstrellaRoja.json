@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-HAPCRV-003",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "Hapoel Be'er Sheva",
+  "away_team": "Estrella Roja",
+  "home_metrics": {
+    "xg_for_last_5": 1.50,
+    "xg_against_last_5": 1.35,
+    "ppda": 10.5,
+    "direct_transition_success_rate": 0.72,
+    "key_player_availability": 0.88,
+    "possession_rate": 0.47,
+    "shots_on_target_per_game": 4.5,
+    "leadership_crisis_level": 0.15
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.90,
+    "xg_against_last_5": 1.10,
+    "ppda": 9.5,
+    "direct_transition_success_rate": 0.78,
+    "key_player_availability": 0.92,
+    "possession_rate": 0.55,
+    "shots_on_target_per_game": 6.0,
+    "leadership_crisis_level": 0.08
+  },
+  "market_data": { "home_win_odds": 3.40, "draw_odds": 3.40, "away_win_odds": 2.00 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.06, "geography_travel_factor": 0.10, "competitive_pressure": 0.90, "away_specific_underperformance": 0.12, "historical_volatility": 0.60, "market_movement_anomaly": 0.10 }
+}

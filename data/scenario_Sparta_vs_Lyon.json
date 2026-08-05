@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-SPALYO-001",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "AC Sparta Praha",
+  "away_team": "Olympique de Lyon",
+  "home_metrics": {
+    "xg_for_last_5": 1.45,
+    "xg_against_last_5": 1.10,
+    "ppda": 10.5,
+    "direct_transition_success_rate": 0.72,
+    "key_player_availability": 0.90,
+    "possession_rate": 0.46,
+    "shots_on_target_per_game": 4.5,
+    "leadership_crisis_level": 0.10
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.95,
+    "xg_against_last_5": 1.40,
+    "ppda": 9.0,
+    "direct_transition_success_rate": 0.78,
+    "key_player_availability": 0.85,
+    "possession_rate": 0.56,
+    "shots_on_target_per_game": 6.2,
+    "leadership_crisis_level": 0.18
+  },
+  "market_data": { "home_win_odds": 3.40, "draw_odds": 3.50, "away_win_odds": 2.05 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.05, "geography_travel_factor": 0.08, "competitive_pressure": 0.95, "away_specific_underperformance": 0.15, "historical_volatility": 0.60, "market_movement_anomaly": 0.10 }
+}

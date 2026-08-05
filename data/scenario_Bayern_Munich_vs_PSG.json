@@ -1,0 +1,35 @@
+{
+  "match_id": "IFA-UCL-2024-005",
+  "competition": "UEFA Champions League 2023/2024",
+  "home_team": "Bayern Munich",
+  "away_team": "PSG",
+  "home_metrics": {
+    "xg_for_last_5": 2.65,
+    "xg_against_last_5": 1.10,
+    "ppda": 8.5,
+    "direct_transition_success_rate": 0.80,
+    "key_player_availability": 0.93,
+    "possession_rate": 0.60,
+    "shots_on_target_per_game": 7.5,
+    "leadership_crisis_level": 0.05
+  },
+  "away_metrics": {
+    "xg_for_last_5": 2.35,
+    "xg_against_last_5": 1.25,
+    "ppda": 10.5,
+    "direct_transition_success_rate": 0.82,
+    "key_player_availability": 0.85,
+    "possession_rate": 0.55,
+    "shots_on_target_per_game": 6.8,
+    "leadership_crisis_level": 0.18
+  },
+  "market_data": { "home_win_odds": 1.90, "draw_odds": 3.70, "away_win_odds": 3.90 },
+  "contextual_factors": {
+    "odds_discrepancy_factor": 0.06,
+    "geography_travel_factor": 0.08,
+    "competitive_pressure": 0.92,
+    "away_specific_underperformance": 0.12,
+    "historical_volatility": 0.60,
+    "market_movement_anomaly": 0.10
+  }
+}

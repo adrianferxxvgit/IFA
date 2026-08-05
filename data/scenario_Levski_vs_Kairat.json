@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-LEVKAI-003",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "Levski Sofia",
+  "away_team": "Kairat Almaty",
+  "home_metrics": {
+    "xg_for_last_5": 1.45,
+    "xg_against_last_5": 1.25,
+    "ppda": 10.5,
+    "direct_transition_success_rate": 0.71,
+    "key_player_availability": 0.87,
+    "possession_rate": 0.50,
+    "shots_on_target_per_game": 4.6,
+    "leadership_crisis_level": 0.18
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.50,
+    "xg_against_last_5": 1.20,
+    "ppda": 10.8,
+    "direct_transition_success_rate": 0.74,
+    "key_player_availability": 0.90,
+    "possession_rate": 0.48,
+    "shots_on_target_per_game": 4.9,
+    "leadership_crisis_level": 0.12
+  },
+  "market_data": { "home_win_odds": 2.40, "draw_odds": 3.30, "away_win_odds": 2.80 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.06, "geography_travel_factor": 0.20, "competitive_pressure": 0.85, "away_specific_underperformance": 0.12, "historical_volatility": 0.60, "market_movement_anomaly": 0.10 }
+}

@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-DINKAU-004",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "GNK Dinamo Zagreb",
+  "away_team": "FK Kauno Zalgiris",
+  "home_metrics": {
+    "xg_for_last_5": 2.10,
+    "xg_against_last_5": 0.90,
+    "ppda": 8.8,
+    "direct_transition_success_rate": 0.79,
+    "key_player_availability": 0.93,
+    "possession_rate": 0.60,
+    "shots_on_target_per_game": 6.8,
+    "leadership_crisis_level": 0.05
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.15,
+    "xg_against_last_5": 1.70,
+    "ppda": 13.0,
+    "direct_transition_success_rate": 0.62,
+    "key_player_availability": 0.82,
+    "possession_rate": 0.38,
+    "shots_on_target_per_game": 3.2,
+    "leadership_crisis_level": 0.22
+  },
+  "market_data": { "home_win_odds": 1.20, "draw_odds": 6.00, "away_win_odds": 12.00 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.03, "geography_travel_factor": 0.10, "competitive_pressure": 0.75, "away_specific_underperformance": 0.05, "historical_volatility": 0.35, "market_movement_anomaly": 0.04 }
+}

@@ -1,0 +1,28 @@
+{
+  "match_id": "UCL-QUAL-2026-AARSAB-002",
+  "competition": "UEFA Champions League Qualifying 2026/27",
+  "home_team": "Aarhus GF",
+  "away_team": "Sabah FK",
+  "home_metrics": {
+    "xg_for_last_5": 1.55,
+    "xg_against_last_5": 1.20,
+    "ppda": 10.0,
+    "direct_transition_success_rate": 0.72,
+    "key_player_availability": 0.92,
+    "possession_rate": 0.52,
+    "shots_on_target_per_game": 5.0,
+    "leadership_crisis_level": 0.08
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.20,
+    "xg_against_last_5": 1.55,
+    "ppda": 12.5,
+    "direct_transition_success_rate": 0.68,
+    "key_player_availability": 0.85,
+    "possession_rate": 0.40,
+    "shots_on_target_per_game": 3.8,
+    "leadership_crisis_level": 0.18
+  },
+  "market_data": { "home_win_odds": 1.50, "draw_odds": 4.20, "away_win_odds": 6.00 },
+  "contextual_factors": { "odds_discrepancy_factor": 0.04, "geography_travel_factor": 0.18, "competitive_pressure": 0.80, "away_specific_underperformance": 0.15, "historical_volatility": 0.45, "market_movement_anomaly": 0.06 }
+}

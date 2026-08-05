@@ -1,0 +1,35 @@
+{
+  "match_id": "IFA-PREMIER-2024-002",
+  "competition": "Premier League 2023/2024",
+  "home_team": "Manchester City",
+  "away_team": "Chelsea",
+  "home_metrics": {
+    "xg_for_last_5": 2.85,
+    "xg_against_last_5": 0.75,
+    "ppda": 7.8,
+    "direct_transition_success_rate": 0.72,
+    "key_player_availability": 0.95,
+    "possession_rate": 0.68,
+    "shots_on_target_per_game": 8.5,
+    "leadership_crisis_level": 0.02
+  },
+  "away_metrics": {
+    "xg_for_last_5": 1.45,
+    "xg_against_last_5": 1.20,
+    "ppda": 11.5,
+    "direct_transition_success_rate": 0.85,
+    "key_player_availability": 0.80,
+    "possession_rate": 0.42,
+    "shots_on_target_per_game": 4.2,
+    "leadership_crisis_level": 0.25
+  },
+  "market_data": { "home_win_odds": 1.40, "draw_odds": 4.80, "away_win_odds": 6.50 },
+  "contextual_factors": {
+    "odds_discrepancy_factor": 0.03,
+    "geography_travel_factor": 0.01,
+    "competitive_pressure": 0.85,
+    "away_specific_underperformance": 0.10,
+    "historical_volatility": 0.35,
+    "market_movement_anomaly": 0.05
+  }
+}
